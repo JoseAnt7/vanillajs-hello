@@ -26,6 +26,7 @@ body {
   justify-content: center;
   padding: 10px;
   animation: expandir-sombra 2s infinite;
+  background: white;
 }
 
 .texto_excusa h1 {

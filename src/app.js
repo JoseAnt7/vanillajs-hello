@@ -17,6 +17,7 @@ window.onload = function() {
     "during my lunch",
     "while I was praying"
   ];
+  let colors = ["blue", "yellow", "white", "black"];
   let elemento;
   let number;
 
@@ -26,6 +27,7 @@ window.onload = function() {
         elemento = document.getElementById("who");
         number = Math.floor(Math.random() * who.length);
         elemento.innerHTML = who[number];
+        document.body.style.backgroundColor = colors[number];
         break;
       case 1:
         elemento = document.getElementById("action");
